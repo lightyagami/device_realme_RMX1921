@@ -49,3 +49,7 @@ type proc_vibration_file, sysfs_type, fs_type;
 
 # I/O Scheduler
 type sysfs_io_sched_tuneable, fs_type, sysfs_type;
+
+# Android 16 optimization fix
+allow artd radio_data_file:file { getattr read write unlink };
+allow artd radio_data_file:dir { write remove_name };
