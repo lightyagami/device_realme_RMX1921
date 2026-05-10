@@ -2,7 +2,7 @@
 user=bluetooth seinfo=platform isPrivApp=true name=com.android.bluetooth domain=bluetooth type=bluetooth_data_file
 
 # NetworkStack
-user=network_stack seinfo=networkstack domain=network_stack type=radio_data_file
-user=network_stack name=com.android.networkstack domain=network_stack type=radio_data_file
-user=network_stack name=com.android.networkstack.process domain=network_stack type=radio_data_file
-user=network_stack name=com.google.android.networkstack domain=network_stack type=radio_data_file
+user=network_stack seinfo=network_stack domain=network_stack type=system_data_file
+user=network_stack name=com.android.networkstack domain=network_stack type=system_data_file
+user=network_stack name=com.android.networkstack.process domain=network_stack type=system_data_file
+user=network_stack name=com.google.android.networkstack domain=network_stack type=system_data_file

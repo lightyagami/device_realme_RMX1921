@@ -1,0 +1,2 @@
+allow network_stack system_data_file:file { read write create getattr setattr unlink map };
+allow network_stack system_data_file:dir { read write search add_name remove_name getattr };
